@@ -1,0 +1,8 @@
+{
+  "name": "@alura/tsconfig-commons",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "base.json"
+  ]
+}

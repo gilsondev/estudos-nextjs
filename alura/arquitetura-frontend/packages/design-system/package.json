@@ -1,0 +1,11 @@
+{
+  "name": "@alura/design-system",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "@alura/tsconfig-commons": "*"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "arquitetura",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "setup/*",
+      "packages/*",
+      "projects/*"
+    ]
+  },
+  "dependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "web-public": "yarn workspace @alura/web-public",
+    "dev:web-public": "yarn web-public dev",
+    "design-system": "yarn workspace @alura/design-system"
+  }
+}
