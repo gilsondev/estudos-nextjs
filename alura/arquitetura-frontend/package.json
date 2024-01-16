@@ -10,14 +10,25 @@
       "projects/*"
     ]
   },
-  "dependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "typescript": "^5"
-  },
   "scripts": {
+    "lint": "yarn workspaces run lint",
     "web-public": "yarn workspace @alura/web-public",
     "dev:web-public": "yarn web-public dev",
-    "design-system": "yarn workspace @alura/design-system"
+    "lint:web-public": "yarn web-public lint",
+    "test:web-public": "yarn web-public test",
+    "design-system": "yarn workspace @alura/design-system",
+    "test:design-system": "yarn design-system test",
+    "eslint-commons": "yarn workspace @alura/eslint-commons",
+    "utils": "yarn workspace @alura/utils",
+    "test:utils": "yarn utils test"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/styled-components": "^5.1.29",
+    "@types/jest": "27.4.1",
+    "typescript": "^5"
   }
 }

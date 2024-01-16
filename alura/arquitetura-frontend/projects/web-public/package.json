@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "test": "jest"
   },
   "dependencies": {
     "@alura/design-system": "*",
@@ -17,7 +18,9 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@alura/test-commons": "*",
     "@alura/tsconfig-commons": "*",
+    "@alura/eslint-commons": "*",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "13.5.6"

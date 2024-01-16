@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> renders the page 1`] = `
+.c0 {
+  font-family: sans-serif;
+}
+
+<div>
+  <div>
+    <h1
+      class="c0"
+    >
+      Home do Projeto
+    </h1>
+  </div>
+</div>
+`;

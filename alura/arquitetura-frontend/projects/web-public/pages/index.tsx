@@ -1,9 +1,3 @@
-import { Text } from "@alura/design-system";
+import { Home } from "../src/screens/HomeScreen/HomeScreen";
 
-export default function Home() {
-  return (
-    <div>
-      <Text tag="h1">Home do Projeto</Text>
-    </div>
-  );
-}
+export default Home;

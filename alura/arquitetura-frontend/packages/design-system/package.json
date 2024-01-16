@@ -2,10 +2,16 @@
   "name": "@alura/design-system",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint '**/*.{ts,tsx}'",
+    "test": "jest"
+  },
   "dependencies": {
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
-    "@alura/tsconfig-commons": "*"
+    "@alura/test-commons": "*",
+    "@alura/tsconfig-commons": "*",
+    "@alura/eslint-commons": "*"
   }
 }
